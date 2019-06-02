@@ -1,0 +1,65 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.box {
+    width: 80%;
+    height: 100px;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding-top: 30px;
+    border-bottom: 2px;
+    border-bottom-color: rgb(180, 107, 79);
+    margin-bottom: 30px;
+}
+
+.title {
+    text-align: center;
+    color: rgb(218, 137, 137);
+}
+
+.row {
+    margin-left: 100px;
+    width: 1000px;
+    height: auto;
+    margin-top: 20px
+}
+
+#middle {
+    height: 700px;
+}
+
+#insert {
+    margin-left: 450px
+}
+
+.col {
+    padding-top: 30px
+}
+
+.footer {
+    margin-top: 600px;
+}
+
+.col-sm-2,
+.col-form-label {
+    color: rgb(111, 130, 180);
+    font-weight: bold;
+}
+
+.form-control {
+    color: rgb(172, 160, 160)
+}
+
+#inputProductName {
+    color: rgb(172, 160, 160)
+}
+
+.col-sm-10 {
+    color: rgb(172, 160, 160)
+}
+
+.btn-primary {
+    background-color: rosybrown;
+    border-color: rgb(241, 170, 170)
+}
