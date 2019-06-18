@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: cursive
+}
+
+.container {
+    width: 350px;
+    height: 197px;
+    margin: 0 auto;
+    margin-top: 85px;
+}
+
+.photo-wrap,
+.side {
+    width: 350px;
+    height: auto;
+}
+
+.photo-wrap {
+    transform-style: preserve-3d;
+    transition: all .3s;
+    position: relative;
+}
+
+.photo-wrap.photo-front {
+    transform: rotateY(0deg);
+}
+
+.photo-wrap.photo-back {
+    transform: rotateY(180deg);
+}
+
+.side {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.side img {
+    width: 350px;
+    height: 197px;
+    backface-visibility: hidden;
+}
+
+.side-front {
+    transform: rotateY(0deg);
+}
+
+.side-back {
+    background-color: rgba(99, 135, 146, 0.856);
+    box-sizing: border-box;
+    border: 5px solid rgba(99, 135, 146, 0.856);
+    color: white;
+    padding: 5px;
+    transform: rotateY(180deg);
+    width: 350px;
+    height: 197px;
+}
+
+h3 {
+    font-size: 35px;
+    margin-bottom: .5rem;
+    font-weight: 500;
+}
+
+p {
+    font-weight: bold;
+    font-size: 19px
+}
+
+input[type=checkbox],
+input[type=radio] {
+    box-sizing: border-box;
+    padding: 0;
+    margin-top: 180px;
+    margin-left: 100px;
+}
+
+#title {
+    margin-left: 345px;
+    height: 220px;
+    width: auto;
+    margin-bottom: -80px
+}
+
+#imagech {
+    height: 500px;
+    width: 880px;
+}
+
+#choose {
+    padding-left: 230px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: white;
+    margin-top: 80px;
+}
+
+#btn1 {
+    background-color: rgba(99, 135, 146, 0.856);
+    color: white;
+    border-color: rgba(99, 135, 146, 0.856);
+    padding: 6px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 80px
+}
